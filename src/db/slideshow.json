@@ -1,0 +1,17 @@
+[
+    {
+        "_id": 1,
+        "text": "Cake Heaven",
+        "image": "http://localhost:3000/image/slideshow/bakery.jpg"
+    },
+    {
+        "_id": 1,
+        "text": "All kinds of cakes",
+        "image": "http://localhost:3000/image/slideshow/cakes.jpg"
+    },
+    {
+        "_id": 1,
+        "text": "From all over the world",
+        "image": "http://localhost:3000/image/slideshow/world.jpg"
+    }
+]
