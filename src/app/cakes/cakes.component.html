@@ -1,0 +1,19 @@
+<div class="row mt-3">
+  <div class="col">
+    <ngb-carousel>
+      <ng-template ngbSlide *ngFor="let slide of slideArr">
+        <div class="picsum-img-wrapper">
+          <img
+            src="{{ slide.image }}"
+            width="100%"
+            height="550px"
+            alt="First Slide"
+          />
+        </div>
+        <div class="carousel-caption">
+          <h3>{{ slide.text }}</h3>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</div>
